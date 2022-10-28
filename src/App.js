@@ -1,9 +1,16 @@
 import './index.css';
+import Navbar from './components/navbar';
+import Home from './components/home';
 
 function App() {
+
+
   return (
     <div className="App">
-      hello
+      <Navbar />
+      <div className="content">
+        <Home />
+      </div>
     </div>
   );
 }
