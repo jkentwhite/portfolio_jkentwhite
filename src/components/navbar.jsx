@@ -4,6 +4,8 @@ const Navbar = () => {
             <h1>jkentwhite</h1>
             <a href="/">home</a>
             <a href="/c_code">creative code</a>
+            <a href="/writing">writing</a>
+            <a href="/games">games</a>
         </nav>
     );
 }
