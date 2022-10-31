@@ -6,6 +6,7 @@ const Navbar = () => {
             <a href="/c_code">creative code</a>
             <a href="/writing">writing</a>
             <a href="/games">games</a>
+            <a href="/art">art</a>
         </nav>
     );
 }
