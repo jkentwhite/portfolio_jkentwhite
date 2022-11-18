@@ -1,9 +1,17 @@
-const Creativecode = () => {
+import WorkList from "./WorkList";
+import useFetch from "../useFetch";
+
+const CreativeCode = () => {
+
+    const { data:work, isLoading, error } = useFetch('http://localhost:8000/work');
+
     return ( 
         <div className="c_code">
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rem voluptate debitis magnam culpa inventore dolorem, numquam blanditiis, soluta dolorum vero aliquam consequatur assumenda, totam eveniet commodi obcaecati sunt corporis.</h2>
+            {error && <div>{ error }</div>}
+            {isLoading && <div>loading...</div>}
+            {work && <WorkList workList={work.filter((work) => work.medium==="new media")} title='' /> }
         </div>
      );
 }
  
-export default Creativecode;
+export default CreativeCode;
