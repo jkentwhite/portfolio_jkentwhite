@@ -14,6 +14,7 @@ const WorkDetails = () => {
                 <article>
                     <h2>{ work.title }</h2>
                     <div>{ work.desc }</div>
+                    <img src={ work.image } alr="detail of work"/>
                 </article>
             )}   
         </div>

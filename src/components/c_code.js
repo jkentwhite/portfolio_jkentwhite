@@ -1,15 +1,13 @@
 import WorkList from "./WorkList";
-import useFetch from "../useFetch";
+import { work } from "../data/db";
 
 const CreativeCode = () => {
 
-    const { data:work, isLoading, error } = useFetch('http://localhost:8000/work');
+    const workList = work;
 
     return ( 
         <div className="c_code">
-            {error && <div>{ error }</div>}
-            {isLoading && <div>loading...</div>}
-            {work && <WorkList workList={work.filter((work) => work.medium==="new media")} title='' /> }
+            {workList && <WorkList workList={workList.filter((work) => work.medium==="new media")} title='' /> }
         </div>
      );
 }

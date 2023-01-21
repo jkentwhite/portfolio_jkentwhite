@@ -1,14 +1,13 @@
-import useFetch from "../useFetch";
 import WorkList from "./WorkList";
+import { work } from "../data/db";
 
 const Games = () => {
-    const { data:work, error, isLoading } = useFetch('http://localhost:8000/work');
-    
+
+    const workList = work;
+
     return ( 
         <div className="games">
-            {error && <div>{ error }</div>}
-            {isLoading && <div>loading...</div>}
-            {work && <WorkList workList={work.filter((work) => work.medium==="game")} title='' /> }
+            {workList && <WorkList workList={workList.filter((work) => work.medium==="game")} title='' /> }
         </div>
      );
 }
