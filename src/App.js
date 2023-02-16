@@ -14,30 +14,32 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <Navbar />
-      <div className="content">
+      <div className="sticky">
+        <Navbar />
+        </div>
+        <div className="content">
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/portfolio">
             <Home />
           </Route>
-          <Route path="/c_code">
+          <Route path="/portfolio/c_code">
             <CreativeCode />
           </Route>
-          <Route path="/writing">
+          <Route path="/portfolio/writing">
             <Writing />
           </Route>
-          <Route path="/games">
+          <Route path="/portfolio/games">
             <Games />
           </Route>
-          <Route path="/art">
+          <Route path="/portfolio/art">
             <Art />
           </Route>
-          <Route path="/workList/:id">
+          <Route path="/portfolio/workList/:id">
             <WorkDetails />
           </Route>
         </Switch>
+        </div>
       </div>
-    </div>
     </Router>
   );
 }

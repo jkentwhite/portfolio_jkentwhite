@@ -1,13 +1,21 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <Link to="/">home</Link>
-            <Link to="/c_code">creative code</Link>
-            <Link to="/writing">writing</Link>
-            <Link to="/games">games</Link>
-            <Link to="/art">art</Link>
+            <NavLink 
+                to="/portfolio"
+                exact={true}
+            >HOME</NavLink>
+            <NavLink 
+                to="/portfolio/c_code"
+            >CODE</NavLink>
+            <NavLink 
+                to="/portfolio/games"
+            >GAMES</NavLink>
+            {/* <NavLink 
+                to="/portfolio/art"
+            >ART</NavLink> */}
         </nav>
     );
 }

@@ -1,19 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;500&display=swap");
 
 /* base styles */
 * {
   margin: 0;
-  font-family: "Bebas Neue";
-  color: #333;
-  background-color: rgb(250, 244, 235);
+  font-family: "Red Hat Mono";
+  font-weight: 500;
+  background-color: rgb(245, 242, 229);
   /* color: rgb(250, 244, 235, 0.5);
   background-color: #0e0d0d; */
 }
-p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 0.5em;
+
+html {
+  scroll-behavior: smooth;
 }
-.navbar {
+
+div.sticky {
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+nav {
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -22,19 +29,17 @@ p {
   margin: 0 auto;
   border-bottom: 1px solid #b1adad;
 }
-.navbar h1 {
-  color: #0e0d0d;
-}
-.navbar .links {
-  margin-left: auto;
-}
-.navbar a {
+nav a {
+  color: #333;
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
-.navbar a:hover {
-  color: #d39999;
+nav a:hover {
+  text-decoration: underline;
+}
+nav a.active {
+  text-decoration: underline;
 }
 .content {
   max-width: 800px;
@@ -42,8 +47,9 @@ p {
   padding: 20px;
 }
 
-/* blog previews / list */
+/* work previews / list */
 .work-preview {
+  color: #333;
   padding: 10px 16px;
   margin: 20px 0;
   /* border-bottom: 1px solid #fafafa; */
@@ -51,13 +57,16 @@ p {
 .work-preview:hover {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
-.work-preview h2,
-p {
+.work-preview h2 {
+  font-weight: 600;
+}
+.work-preview p {
   background: none;
-  font-size: 20px;
+  font-size: 12px;
   margin-bottom: 8px;
 }
 .work-preview a {
+  color: #333;
   text-decoration: none;
 }
 
@@ -78,11 +87,9 @@ p {
   max-width: 100%;
 }
 
-.blog-details button {
-  background: #f1356d;
-  color: #fff;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
-  cursor: pointer;
+.tech {
+  font-style: italic;
+}
+.desc {
+  font-style: italic;
 }

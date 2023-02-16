@@ -9,10 +9,11 @@ const WorkList = ({workList, title}) => {
             {workList.map((work) => (
                 <div className="work-preview" key={work.id}>
                     <Link to={ `workList/${work.id}` }>
-                        <h2>{ work.title }</h2>
+                        <h2>{ work.title.toUpperCase() }</h2>
+                        {/* {work.image && <img src={work.image} alt="art"/>} */}
+                        {work.tech && <p className="tech">{ work.tech }</p> }
+                        <p className="desc">{ work.desc }</p>
                     </Link>
-                    {work.image && <img src={work.image} alt="art"/>}
-                    <p>{ work.desc }</p>
                 </div>
             ))}
         </div>

@@ -1,21 +1,21 @@
 
 export const work = [
         {
-            "title": "digital smear",
-            "desc": "digital smear is a series of works based around grabbing and generatively smearing the pixels across the screen",
+            "title": "autobrush pixels",
+            "desc": "autobrush pixels is a series of works based around grabbing and generatively brushing the pixels across the screen",
             "tech": "processing",
-            "medium": "art",
-            "image": "../images/randomlines-1049.jpg",
-            "featured": true,
-            "id": 1
+            "medium": "code",
+            "image": "",
+            "featured": false,
+            "id": 0
         },
         {
             "title": "collage",
-            "desc": "something about the work here",
+            "desc": "this collage series is an exercise is appropriated media repurposed into the anti-aesthetic",
             "medium": "art",
             "image": "",
             "featured": false,
-            "id": 2
+            "id": 1
         },
         {
             "title": "best friends",
@@ -23,7 +23,7 @@ export const work = [
             "medium": "art",
             "image": "",
             "featured": false,
-            "id": 3
+            "id": 2
         },
         {
             "title": "prom night",
@@ -31,7 +31,7 @@ export const work = [
             "medium": "art",
             "image": "",
             "featured": false,
-            "id": 4
+            "id": 3
         },
         {
             "title": "untitled trash",
@@ -39,136 +39,141 @@ export const work = [
             "medium": "art",
             "image": "",
             "featured": false,
-            "id": 5
+            "id": 4
         },
         {
             "title": "it comes in waves",
             "desc": "it comes in waves is a generative internet art piece about the ebbs and flows of everything in life",
             "tech": "p5",
-            "medium": "new media",
+            "medium": "code",
             "image": "",
-            "featured": true,
-            "id": 6
+            "featured": false,
+            "id": 5
         },
         {
             "title": "new astrology",
             "desc": "new astrology is a genereative internet art piece about the connection we have with the stars and signs above us",
             "tech": "p5",
-            "medium": "new media",
+            "medium": "code",
             "image": "",
             "featured": false,
-            "id": 7
+            "id": 6
         },
         {
             "title": "nothin' on",
             "desc": "nothin' on is a repetitive internet art piece about the endless clicking and searching for anything interesting",
             "tech": "p5",
-            "medium": "new media",
+            "medium": "code",
             "image": "",
             "featured": false,
-            "id": 8
+            "id": 7
         },
         {
             "title": "mouse drawing arm",
             "desc": "mouse drawing arm is a technical art piece about connecting the physical and digital",
             "tech": "processing, arduino",
-            "medium": "new media",
+            "medium": "code",
             "image": "",
             "featured": false,
-            "id": 9
+            "id": 8
         },
         {
             "title": "gradient follow",
             "desc": "gradient follow is an abstract digital projection/display piece about being observed and followed",
             "tech": "processing",
-            "medium": "new media",
+            "medium": "code",
             "image": "",
             "featured": false,
-            "id": 10
+            "id": 9
         },
         {
             "title": "three graces",
             "desc": "three graces is a generative pop-art piece",
             "tech": "processing",
-            "medium": "new media",
+            "medium": "code",
             "image": "",
             "featured": false,
-            "id": 12
+            "id": 10
         },
         {
             "title": "enlarged noise",
             "desc": "enlarged noise is a generative minimalist take on black and white noise",
             "tech": "processing",
-            "medium": "new media",
+            "medium": "code",
             "image": "",
             "featured": false,
-            "id": 13
+            "id": 11
         },
         {
             "title": "t & a",
-            "desc": "t & a is a playful generative piece about the human body",
+            "desc": "t & a is a playful generative piece",
             "tech": "processing",
-            "medium": "new media",
+            "medium": "code",
             "image": "",
             "featured": false,
-            "id": 14
+            "id": 12
         },
         {
             "title": "marlowe <3<3<3",
             "desc": "marlowe <3<3<3 is an immersive, location based story based near the waterfront in brooklyn",
             "tech": "twilio, xml, php",
-            "medium": "new media",
+            "medium": "game",
+            "image": "",
+            "featured": false,
+            "id": 13
+        },
+        {
+            "title": "secret",
+            "desc": "secret is an audio piece exploring the relationship between volume and truth",
+            "medium": "art",
+            "image": "",
+            "featured": false,
+            "id": 14
+        },
+        {
+            "title": "interview",
+            "desc": "interview is an immersive alternate reality game where players are recruited through online ads for employment",
+            "medium": "game",
+            "tech": "",
             "image": "",
             "featured": false,
             "id": 15
         },
         {
-            "title": "secret",
-            "desc": "secret is an audio piece exploring the relationship between volume and truth",
-            "medium": "new media",
+            "title": "marfa abduction",
+            "desc": "marfa abduction is an interactive story about finding a missing person in marfa, tx",
+            "medium": "game",
+            "tech": "",
             "image": "",
             "featured": false,
             "id": 16
         },
         {
-            "title": "interview",
-            "desc": "interview is an immersive alternate reality game where players are recruited through online ads for employment",
-            "medium": "new media",
+            "title": "superflo",
+            "desc": "superflo is a peer-to-peer mobile game along the lines of tag or assassin",
+            "medium": "game",
+            "tech": "mobile peer-to-peer",
             "image": "",
             "featured": false,
             "id": 17
         },
         {
-            "title": "marfa abduction",
-            "desc": "marfa abduction is an interactive story about finding a missing person in marfa, tx",
-            "medium": "new media",
+            "title": "panda terror",
+            "desc": "panda terror is a click and move game about task management when dealing with pesky distractions",
+            "medium": "game",
+            "tech": "Unity",
             "image": "",
             "featured": false,
             "id": 18
         },
         {
-            "title": "superflo",
-            "desc": "superflo is a peer-to-peer mobile game along the lines of tag or assassin",
-            "medium": "game",
-            "image": "",
-            "featured": false,
-            "id": 19
-        },
-        {
-            "title": "panda terror",
-            "desc": "panda terror is a click and move game about task management when dealing with pesky distractions",
-            "medium": "game",
-            "image": "",
-            "featured": false,
-            "id": 20
-        },
-        {
             "title": "moontower",
             "desc": "moontower is an immersive, location based game",
             "medium": "game",
+            "tech": "JavaScript, React",
             "image": "",
             "featured": false,
-            "id": 21
+            "id": 19
         },
         {
             "title": "bocce golf",
@@ -176,7 +181,7 @@ export const work = [
             "medium": "game",
             "image": "",
             "featured": false,
-            "id": 22
+            "id": 20
         },
         {
             "title": "island treasure",
@@ -184,7 +189,7 @@ export const work = [
             "medium": "game",
             "image": "",
             "featured": false,
-            "id": 23
+            "id": 21
         },
         {
             "title": "shangri-la",
@@ -192,7 +197,7 @@ export const work = [
             "medium": "game",
             "image": "",
             "featured": false,
-            "id": 24
+            "id": 22
         },
         {
             "title": "anarchy trilogy",
@@ -200,7 +205,7 @@ export const work = [
             "medium": "writing",
             "image": "",
             "featured": false,
-            "id": 25
+            "id": 23
         },
         {
             "title": "inside job",
@@ -208,7 +213,7 @@ export const work = [
             "medium": "writing",
             "image": "",
             "featured": false,
-            "id": 26
+            "id": 24
         },
         {
             "title": "rockaway",
@@ -216,7 +221,7 @@ export const work = [
             "medium": "writing",
             "image": "",
             "featured": false,
-            "id": 33
+            "id": 25
         },
         {
             "title": "not forgotten",
@@ -224,41 +229,58 @@ export const work = [
             "medium": "writing",
             "image": "",
             "featured": false,
-            "id": 27
+            "id": 26
         },
         {
             "title": "La Madre Fantasma",
             "desc": "la madre fantasma is a story about a mother's journey and battle to retrieve her son",
             "medium": "writing",
             "featured": false,
-            "id": 28
+            "id": 27
         },
         {
             "title": "ellsworth",
             "desc": "ellsworth is a dystopian story about the near future in a post-plague world where social credit is the only currency",
             "medium": "writing",
             "featured": false,
-            "id": 29
+            "id": 28
         },
         {
             "title": "fort davis",
             "desc": "fort davis is a story about the pains of the expansion along the frontier in 1840s america",
             "medium": "writing",
             "featured": false,
-            "id": 30
+            "id": 29
         },
         {
             "title": "idiots in brooklyn",
             "desc": "idiots in brooklyn is a comedy series about two idiots in brooklyn",
             "medium": "writing",
             "featured": false,
-            "id": 31
+            "id": 30
         },
         {
             "title": "rat king",
             "desc": "rat king is an animated story about a boy who becomes the underground rat's savior from a tyrannical rat king",
             "medium": "writing",
             "featured": false,
+            "id": 31
+        },
+        {
+            "title": "GOALD",
+            "desc": "goald is a project tracking progressive web app",
+            "medium": "code",
+            "tech": "JavaScript, HTML, CSS",
+            "featured": true,
             "id": 32
+        },
+        {
+            "title": "beat the bomb",
+            "desc": "BTB is an multi-game, multi-player escape room style experience in Brooklyn, NY",
+            "medium": "game",
+            "tech": "Unity, Arduino, Processing, Camera Vision",
+            "featured": true,
+            "id": 33
         }
+
     ]

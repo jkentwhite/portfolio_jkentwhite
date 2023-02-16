@@ -7,7 +7,9 @@ const CreativeCode = () => {
 
     return ( 
         <div className="c_code">
-            {workList && <WorkList workList={workList.filter((work) => work.medium==="new media")} title='' /> }
+            <h2>CREATIVE CODE</h2>
+            <p>these are a short collection of experiments in creative coding that focus on distilling digital and generative works down to minimal elements. they are expressions of resitance to the maximalist digital art world</p>
+            {workList && <WorkList workList={workList.filter((work) => work.medium==="code")} title='' /> }
         </div>
      );
 }

@@ -1,20 +1,19 @@
 import { useParams } from "react-router-dom";
-import useFetch from "../useFetch";
+import { work } from "../data/db";
 
 const WorkDetails = () => {
 
     const { id } = useParams();
-    const { data:work, error, isLoading } = useFetch('http://localhost:8000/work/' + id);
+    const workDetails = work[id];
 
     return ( 
         <div className="work-details">
-            {error && <div>{ error }</div>}
-            {isLoading && <div>loading...</div>}
-            {work && (
+            
+            {workDetails && (
                 <article>
-                    <h2>{ work.title }</h2>
-                    <div>{ work.desc }</div>
-                    <img src={ work.image } alr="detail of work"/>
+                    <h2>{ workDetails.title }</h2>
+                    <div>{ workDetails.desc }</div>
+                    {workDetails.image && <img src={ workDetails.image } alt="detail of work"/>}
                 </article>
             )}   
         </div>
