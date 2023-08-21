@@ -51,8 +51,8 @@ export const work = [
             "id": 5
         },
         {
-            "title": "new astrology",
-            "desc": "new astrology is a genereative internet art piece about the connection we have with the stars and signs above us",
+            "title": "aquarius",
+            "desc": "aquarius is a genereative internet art piece about the connection we have with the stars and signs above us",
             "tech": "p5",
             "medium": "code",
             "image": "",
@@ -69,8 +69,8 @@ export const work = [
             "id": 7
         },
         {
-            "title": "mouse drawing arm",
-            "desc": "mouse drawing arm is a technical art piece about connecting the physical and digital",
+            "title": "servo draw",
+            "desc": "servo draw is a technical art piece about connecting the physical and digital",
             "tech": "processing, arduino",
             "medium": "code",
             "image": "",
@@ -78,8 +78,8 @@ export const work = [
             "id": 8
         },
         {
-            "title": "gradient follow",
-            "desc": "gradient follow is an abstract digital projection/display piece about being observed and followed",
+            "title": "wall monitor",
+            "desc": "wall monitor is an abstract digital projection/display piece about being observed and followed",
             "tech": "processing",
             "medium": "code",
             "image": "",
@@ -96,8 +96,8 @@ export const work = [
             "id": 10
         },
         {
-            "title": "enlarged noise",
-            "desc": "enlarged noise is a generative minimalist take on black and white noise",
+            "title": "0000 0000  1111 1111",
+            "desc": "0000 0000  1111 1111 is a generative minimalist take on binary noise",
             "tech": "processing",
             "medium": "code",
             "image": "",
@@ -108,7 +108,7 @@ export const work = [
             "title": "t & a",
             "desc": "t & a is a playful generative piece",
             "tech": "processing",
-            "medium": "code",
+            "medium": "art",
             "image": "",
             "featured": false,
             "id": 12
@@ -120,7 +120,7 @@ export const work = [
             "medium": "game",
             "image": "",
             "featured": false,
-            "id": 13
+            "id": 45
         },
         {
             "title": "secret",
@@ -186,7 +186,7 @@ export const work = [
         {
             "title": "island treasure",
             "desc": "island adventure is an immersive themed vacation game",
-            "medium": "game",
+            "medium": "",
             "image": "",
             "featured": false,
             "id": 21
@@ -271,7 +271,7 @@ export const work = [
             "desc": "goald is a project tracking progressive web app",
             "medium": "code",
             "tech": "JavaScript, HTML, CSS",
-            "featured": true,
+            "featured": false,
             "id": 32
         },
         {
@@ -279,8 +279,24 @@ export const work = [
             "desc": "BTB is an multi-game, multi-player escape room style experience in Brooklyn, NY",
             "medium": "game",
             "tech": "Unity, Arduino, Processing, Camera Vision",
-            "featured": true,
+            "featured": false,
             "id": 33
+        },
+        {
+            "title": "Informed Citizen",
+            "desc": "Informed Citizen is a public official transparency progressive web app",
+            "medium": "code",
+            "tech": "React, Axios, JavaScript, HTML, CSS",
+            "featured": false,
+            "id": 34
+        },
+        {
+            "title": "KCRK",
+            "desc": "KCRK - kings county rat king - is an e-commerce shop for street apparel",
+            "medium": "code",
+            "tech": "React, Axios, JavaScript, HTML, CSS",
+            "featured": false,
+            "id": 35
         }
 
     ]

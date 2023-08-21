@@ -4,7 +4,8 @@ import { work } from "../data/db";
 const WorkDetails = () => {
 
     const { id } = useParams();
-    const workDetails = work[id];
+    const workId = work.filter((work) => work.id == id);
+    const workDetails = workId[0];
 
     return ( 
         <div className="work-details">
